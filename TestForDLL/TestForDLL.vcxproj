@@ -117,10 +117,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="LibStrStr.h" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="testmalloc.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="testmalloc.cpp" />
+    <Text Include="string.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -2,13 +2,15 @@
   LibStrStr.cpp
 c:\users\goingjack\desktop\libstrstr\project\libstrstr\libstrstr\libstrstr.cpp(26): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
-c:\users\goingjack\desktop\libstrstr\project\libstrstr\libstrstr\libstrstr.cpp(175): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\goingjack\desktop\libstrstr\project\libstrstr\libstrstr\libstrstr.cpp(42): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
-c:\users\goingjack\desktop\libstrstr\project\libstrstr\libstrstr\libstrstr.cpp(177): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(440): note: 参见“strtok”的声明
-c:\users\goingjack\desktop\libstrstr\project\libstrstr\libstrstr\libstrstr.cpp(182): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\goingjack\desktop\libstrstr\project\libstrstr\libstrstr\libstrstr.cpp(202): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
-c:\users\goingjack\desktop\libstrstr\project\libstrstr\libstrstr\libstrstr.cpp(183): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\goingjack\desktop\libstrstr\project\libstrstr\libstrstr\libstrstr.cpp(204): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(440): note: 参见“strtok”的声明
-c:\users\goingjack\desktop\libstrstr\project\libstrstr\libstrstr\libstrstr.cpp(53): warning C4715: “MainStrStr”: 不是所有的控件路径都返回值
+c:\users\goingjack\desktop\libstrstr\project\libstrstr\libstrstr\libstrstr.cpp(209): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+c:\users\goingjack\desktop\libstrstr\project\libstrstr\libstrstr\libstrstr.cpp(210): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(440): note: 参见“strtok”的声明
+c:\users\goingjack\desktop\libstrstr\project\libstrstr\libstrstr\libstrstr.cpp(80): warning C4715: “MainStrStr”: 不是所有的控件路径都返回值
   LibStrStr.vcxproj -> C:\Users\GoingJack\Desktop\LibStrStr\Project\LibStrStr\Debug\LibStrStr.dll

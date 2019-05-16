@@ -3,13 +3,14 @@
 #ifndef __LIBSTRSTR
 #define __LIBSTRSTR
 
-#define LIB_API __declspec(dllexport)
+#define LIB_API 
 
 
 
 #include <stdio.h>
 #include <malloc.h>
 #include <limits.h>
+#include <stdlib.h>
 #define nullptr NULL
 
 
@@ -29,7 +30,7 @@ typedef enum {
 //每次处理的结构体
 typedef struct {
 	const char	*StrContent;		//传进来的字符串指针。
-	const char	*KeyWord;			//传递进来的关键字指针。
+	char	*KeyWord;			//传递进来的关键字指针。
 
 	/*程序处理返回的值：用于给结果结构体赋值*/
 	//1
@@ -51,7 +52,7 @@ typedef struct {
 
 }/*Parameter for QuickStrStr()*/PFQ;
 //根据字符串分割之后再完成全部工作再返回
-typedef struct
+typedef struct  
 {
 	/*Copy PFQ中用户输入的串*/
 	char	*KeyWord;			//传递进来的关键字指针。
@@ -96,6 +97,13 @@ LIB_API void getNextArray(const char *match, int *next);
 参数:	结构体指针
 返回值:	返回分割好的字符串
 */
-LIB_API char **SpiltKeyWords(EveryKeyWords *Information);
+LIB_API void SpiltKeyWords(EveryKeyWords *Information);
+
+/*
+功能:	防止内存泄漏释放所有申请的空间
+参数:	无
+返回值
+*/
+LIB_API void DeleteAllMem(PFQ * Information);
 
 #endif
